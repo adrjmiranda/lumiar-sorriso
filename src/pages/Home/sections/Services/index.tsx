@@ -32,7 +32,7 @@ const services = [
 			"Cuidado humanizado e lúdico para que os pequenos amem cuidar do sorriso.",
 		icon: <Heart className='w-8 h-8 text-premium-gold' />,
 		image:
-			"https://images.unsplash.com/photo-1445510491599-c391e8046a68?q=80&w=600",
+			"https://images.unsplash.com/photo-1681939278218-a755fb2bf2d3?q=80&w=1170",
 	},
 ];
 
