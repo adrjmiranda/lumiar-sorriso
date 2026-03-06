@@ -42,8 +42,8 @@ export default function About() {
 							/>
 						</div>
 						{/* Decors */}
-						<div className='absolute -top-10 -right-10 w-64 h-64 bg-premium-gold/10 rounded-full -z-0 blur-3xl' />
-						<div className='absolute -bottom-10 -left-10 w-64 h-64 bg-accent/10 rounded-full -z-0 blur-3xl' />
+						<div className='absolute -top-10 -right-10 w-64 h-64 bg-premium-gold/10 rounded-full z-0 blur-3xl' />
+						<div className='absolute -bottom-10 -left-10 w-64 h-64 bg-accent/10 rounded-full z-0 blur-3xl' />
 
 						<div className='absolute bottom-10 -right-10 glass-card p-8 rounded-3xl shadow-2xl z-20 max-w-[250px]'>
 							<p className='text-4xl font-display font-black text-premium-gold'>
@@ -82,7 +82,7 @@ export default function About() {
 									key={item.title}
 									className='flex gap-6'
 								>
-									<div className='flex-shrink-0 w-12 h-12 bg-white rounded-2xl shadow-md flex items-center justify-center text-premium-gold'>
+									<div className='shrink-0 w-12 h-12 bg-white rounded-2xl shadow-md flex items-center justify-center text-premium-gold'>
 										{item.icon}
 									</div>
 									<div>
